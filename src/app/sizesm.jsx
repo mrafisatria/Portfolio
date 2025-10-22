@@ -268,7 +268,7 @@ export default function SizeSm(){
                         <div className="w-full pt-10">
                             <div className="flex flex-col">
                                 <div className="">
-                                    <p className="text-xs text-slate-400 font-normal">DES 2023 - FEB 2024</p>
+                                    <p className="text-xs text-slate-400 font-normal pb-2">DES 2023 - FEB 2024</p>
                                 </div>
                                 <div className="">
                                     <a href="https://drive.google.com/file/d/1209-WEOlsnwjOivrS87PRVm1Z2kP8LTT/view?usp=sharing" className="group" target="blank">
