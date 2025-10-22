@@ -53,8 +53,8 @@ export default function SizeSm(){
                     <p className="mt-9 text-slate-400 text-md font-normal leading-relaxed">
                         <span>
                             Saya seorang <b className="text-cyan-300">Full-Stack Engineer</b> yang bersemangat membangun <b className="text-slate-50">Aplikasi Web</b> yang Skalabel, Efisien, dan Aman, 
-                            dari <b className="text-slate-50">Frontend hingga Backend</b>. Pekerjaan favorit saya berada di persimpangan desain dan pengembangan, menciptakan pengalaman yang tidak hanya menarik secara visual tetapi 
-                            juga dibangun dengan kokoh untuk kinerja dan kenyamanan pengguna.
+                            dari <b className="text-slate-50">Frontend hingga Backend</b>. Saya berfokus pada persimpangan desain dan pengembangan, menciptakan pengalaman yang tidak hanya menarik secara visual 
+                            tetapi juga dibangun dengan kokoh untuk kinerja dan kenyamanan pengguna.
                         </span> 
                         <br /> <br />
                         <span>
