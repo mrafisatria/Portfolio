@@ -238,7 +238,7 @@ export default function SizeSm(){
                     </div>
                     <div>                       
                         <div className="w-full pt-10">
-                            <div className="flex flex-col border">
+                            <div className="flex flex-col">
                                 <div className="">
                                     <p className="text-xs text-slate-400 font-normal pb-2">FEB - JUNI 2024</p>
                                 </div>
