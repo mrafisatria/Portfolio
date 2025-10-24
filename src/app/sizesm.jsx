@@ -53,8 +53,8 @@ export default function SizeSm(){
                     <p className="mt-9 text-slate-400 text-md font-normal leading-relaxed">
                         <span>
                             Saya seorang <b className="text-cyan-300">Full-Stack Engineer</b> yang bersemangat membangun <b className="text-slate-50">Aplikasi Web</b> yang Skalabel, Efisien, dan Aman, 
-                            dari <b className="text-slate-50">Frontend hingga Backend</b>. Pekerjaan favorit saya berada di persimpangan desain dan pengembangan, menciptakan pengalaman yang tidak hanya menarik secara visual tetapi 
-                            juga dibangun dengan kokoh untuk kinerja dan kenyamanan pengguna.
+                            dari <b className="text-slate-50">Frontend hingga Backend</b>. Saya berfokus pada persimpangan desain dan pengembangan, menciptakan pengalaman yang tidak hanya menarik secara visual 
+                            tetapi juga dibangun dengan kokoh untuk kinerja dan kenyamanan pengguna.
                         </span> 
                         <br /> <br />
                         <span>
@@ -238,7 +238,7 @@ export default function SizeSm(){
                     </div>
                     <div>                       
                         <div className="w-full pt-10">
-                            <div className="flex flex-col border">
+                            <div className="flex flex-col">
                                 <div className="">
                                     <p className="text-xs text-slate-400 font-normal pb-2">FEB - JUNI 2024</p>
                                 </div>
@@ -268,7 +268,7 @@ export default function SizeSm(){
                         <div className="w-full pt-10">
                             <div className="flex flex-col">
                                 <div className="">
-                                    <p className="text-xs text-slate-400 font-normal">DES 2023 - FEB 2024</p>
+                                    <p className="text-xs text-slate-400 font-normal pb-2">DES 2023 - FEB 2024</p>
                                 </div>
                                 <div className="">
                                     <a href="https://drive.google.com/file/d/1209-WEOlsnwjOivrS87PRVm1Z2kP8LTT/view?usp=sharing" className="group" target="blank">
