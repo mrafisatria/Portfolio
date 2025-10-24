@@ -301,6 +301,35 @@ export default function SizeSm(){
                         <div className="">
                             <p className="text-sm font-bold text-slate-50 tracking-wider">PROJECTS</p>
                         </div>
+
+                        <div className="pt-10 pb-5">
+                            <div className="flex flex-col">
+                                <div className="">
+                                    <a href="https://skycastid.vercel.app" target="blank" className="group">
+                                        <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
+                                            Skycast
+                                            <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
+                                                <i className="bi bi-arrow-up-right text-xs"></i>
+                                            </span>
+                                        </p>
+                                    </a>
+                                    <p className="text-sm text-slate-400 font-normal">
+                                        Menyediakan informasi cuaca real-time untuk berbagai kota, termasuk suhu, kelembapan, tekanan, arah dan kecepatan angin, 
+                                        serta kondisi langit. Website ini membantu pengguna memantau cuaca secara cepat dan akurat, mendukung perencanaan kegiatan harian, 
+                                        dan menampilkan tampilan interaktif dengan ikon dan latar sesuai kondisi cuaca.
+                                    </p>
+                                    <div className="flex w-full mt-4 gap-2">
+                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Frontend</p>
+                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Next.js</p>
+                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Tailwind</p>
+                                    </div>
+                                </div>
+                                <div className="">
+                                    <Image src="/images/Skycast.png" alt="Profil" width={200} height={200} className="mt-5 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
+                                </div>
+                            </div>
+                        </div>
+
                         <div className="pt-10 pb-5">
                             <div className="flex flex-col">
                                 <div className="">
@@ -332,33 +361,6 @@ export default function SizeSm(){
                         <div className="pt-10 pb-5">
                             <div className="flex flex-col">
                                 <div className="">
-                                    <a href="" target="blank" className="group">
-                                        <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
-                                            Sistem Informasi Rekon DAK Fisik (SIDAK)
-                                            <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
-                                                <i className="bi bi-arrow-up-right text-xs"></i>
-                                            </span>
-                                        </p>
-                                    </a>
-                                    <p className="text-sm text-slate-400 font-normal">
-                                        Membangun website untuk mengelola dan memantau data DAK Fisik. Sistem ini meningkatkan
-                                        akses dan transparansi data DAK Fisik bagi staf pemerintah dan pemangku kepentingan.
-                                    </p>
-                                    <div className="flex w-full mt-4 gap-2">
-                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">FullStack</p>
-                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Codeigniter</p>
-                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Bootstrap</p>
-                                    </div>
-                                </div>
-                                <div className="">
-                                    <Image src="/images/SIDAK.png" alt="Profil" width={200} height={200} className="mt-5 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div className="pt-10 pb-5">
-                            <div className="flex flex-col">
-                                <div className="">
                                     <a href="https://github.com/DermaOneTeam/Cloud-Computing" target="blank" className="group">
                                         <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
                                             Dermaone
@@ -384,6 +386,34 @@ export default function SizeSm(){
                                 </div>
                             </div>
                         </div>
+
+                        <div className="pt-10 pb-5">
+                            <div className="flex flex-col">
+                                <div className="">
+                                    <a href="" target="blank" className="group">
+                                        <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
+                                            Sistem Informasi Rekon DAK Fisik (SIDAK)
+                                            <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
+                                                <i className="bi bi-arrow-up-right text-xs"></i>
+                                            </span>
+                                        </p>
+                                    </a>
+                                    <p className="text-sm text-slate-400 font-normal">
+                                        Membangun website untuk mengelola dan memantau data DAK Fisik. Sistem ini meningkatkan
+                                        akses dan transparansi data DAK Fisik bagi staf pemerintah dan pemangku kepentingan.
+                                    </p>
+                                    <div className="flex w-full mt-4 gap-2">
+                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">FullStack</p>
+                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Codeigniter</p>
+                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Bootstrap</p>
+                                    </div>
+                                </div>
+                                <div className="">
+                                    <Image src="/images/SIDAK.png" alt="Profil" width={200} height={200} className="mt-5 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
+                                </div>
+                            </div>
+                        </div>
+                    
                     </div>
                     {/* Projects */}
 

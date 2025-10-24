@@ -364,6 +364,34 @@ export default function SizeXl(){
 
                     {/* Projects */}
                     <section id="projects" className="grid mt-30">
+
+                        <a href="https://skycastid.vercel.app" target="blank">
+                            <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl group">
+                                <div className="flex">
+                                    <div className="w-1/3">
+                                        <Image src="/images/Skycast.png" alt="Profil" width={150} height={150} className="mt-2 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
+                                    </div>
+                                    <div className="w-2/3">
+                                        <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
+                                            Skycast
+                                            <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
+                                                <i className="bi bi-arrow-up-right text-xs"></i>
+                                            </span>
+                                        </p>
+                                        <p className="text-sm text-slate-400 font-normal">
+                                            Menyediakan informasi cuaca real-time untuk berbagai kota, termasuk suhu, kelembapan, tekanan, arah dan kecepatan angin, 
+                                            serta kondisi langit. Website ini membantu pengguna memantau cuaca secara cepat dan akurat, mendukung perencanaan kegiatan harian, 
+                                            dan menampilkan tampilan interaktif dengan ikon dan latar sesuai kondisi cuaca.
+                                        </p>
+                                        <div className="flex w-full mt-4 gap-2">
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Frontend</p>
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Next.js</p>
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Tailwind</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                         
                         <a href="">
                             <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl group">
@@ -393,33 +421,6 @@ export default function SizeXl(){
                             </div>
                         </a>
 
-                        <a href="" target="blank">
-                            <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl group">
-                                <div className="flex">
-                                    <div className="w-1/3">
-                                        <Image src="/images/SIDAK.png" alt="Profil" width={150} height={150} className="mt-2 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
-                                    </div>
-                                    <div className="w-2/3">
-                                        <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
-                                            Sistem Informasi Rekon DAK Fisik (SIDAK)
-                                            <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
-                                                <i className="bi bi-arrow-up-right text-xs"></i>
-                                            </span>
-                                        </p>
-                                        <p className="text-sm text-slate-400 font-normal">
-                                            Membangun website untuk mengelola dan memantau data DAK Fisik. Sistem ini meningkatkan
-                                            akses dan transparansi data DAK Fisik bagi staf pemerintah dan pemangku kepentingan.
-                                        </p>
-                                        <div className="flex w-full mt-4 gap-2">
-                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">FullStack</p>
-                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Codeigniter</p>
-                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Bootstrap</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        
                         <a href="https://github.com/DermaOneTeam/Cloud-Computing" target="blank">
                             <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl group">
                                 <div className="flex">
@@ -443,6 +444,33 @@ export default function SizeXl(){
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Backend</p>
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Node.js</p>
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Express.js</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" target="blank">
+                            <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl group">
+                                <div className="flex">
+                                    <div className="w-1/3">
+                                        <Image src="/images/SIDAK.png" alt="Profil" width={150} height={150} className="mt-2 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
+                                    </div>
+                                    <div className="w-2/3">
+                                        <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
+                                            Sistem Informasi Rekon DAK Fisik (SIDAK)
+                                            <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
+                                                <i className="bi bi-arrow-up-right text-xs"></i>
+                                            </span>
+                                        </p>
+                                        <p className="text-sm text-slate-400 font-normal">
+                                            Membangun website untuk mengelola dan memantau data DAK Fisik. Sistem ini meningkatkan
+                                            akses dan transparansi data DAK Fisik bagi staf pemerintah dan pemangku kepentingan.
+                                        </p>
+                                        <div className="flex w-full mt-4 gap-2">
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">FullStack</p>
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Codeigniter</p>
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Bootstrap</p>
                                         </div>
                                     </div>
                                 </div>
