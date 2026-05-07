@@ -4,6 +4,8 @@ import Image from "next/image";
 
 export default function SizeXl(){
 
+    const [showAllProjects, setShowAllProjects] = useState(false);
+
     const [active, setActive] = useState("");
 
     useEffect(() => {
@@ -131,16 +133,25 @@ export default function SizeXl(){
                                 tetapi juga dibangun dengan kokoh untuk kinerja dan kenyamanan pengguna.
                             </span> 
                             <br /> <br />
+
                             <span>
                                 Saat ini, saya fokus <b className="text-slate-50">memperdalam dan mempertajam kemampuan Programming</b>, mempelajari teknologi terbaru di Frontend dan Backend, serta membangun proyek-proyek praktis 
                                 untuk meningkatkan pengalaman dan portofolio saya.
                             </span> 
                             <br /><br />
+
+                            <span>
+                                Saya juga memiliki kemampuan dalam <b className="text-slate-50">troubleshooting jaringan, hardware, dan software</b>, mulai dari identifikasi masalah, konfigurasi perangkat, 
+                                hingga perbaikan sistem agar dapat berjalan dengan optimal dan stabil.
+                            </span>
+                            <br /><br />
+
                             <span>
                                 Sebelumnya, saya berkesempatan mengembangkan perangkat lunak di berbagai bidang seperti 
                                 <b className="text-slate-50"> Akademik, Kesehatan, dan Pemerintahan</b>.
                             </span> 
                             <br /><br />
+
                             <span>
                                 Di waktu luang, saya biasanya bermain game online di komputer atau keluar rumah bersama teman untuk mencari kegiatan yang menyenangkan.
                             </span>
@@ -301,10 +312,27 @@ export default function SizeXl(){
                                 </span>
                             </div>
 
+                            <div className="relative group inline-block">
+                                <svg className="fill-current text-[#ffffff]" role="img" width="100" height="100" viewBox="0 0 33 37" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.15 12.723v-1.845h-1.163v.422h.61v1.423h-.61v.421h1.774v-.421zm5.69 1.167v-.421H24v.421zm-.66-2.852q.213.214.213.604v1.502h-.552v-1.41q0-.43-.426-.43a.48.48 0 0 0-.36.152q-.147.151-.147.419v1.27h-.552v-3.023h.552v1.06q.259-.356.69-.356.37 0 .582.212zm-2.475.262h-.706v1.225q0 .11.06.153.058.044.198.043h.404v.422c-.12.012-.432.017-.505.017q-.368 0-.538-.138-.17-.138-.17-.441V11.3h-.513v-.422h.514v-.756h.55v.756h.706zm-4.447-.255q.208.22.209.602v1.497h-.553v-1.41q0-.43-.39-.43a.427.427 0 0 0-.343.152q-.129.151-.13.441v1.247h-.547v-1.41q0-.43-.395-.43a.421.421 0 0 0-.336.152q-.13.152-.13.442v1.247h-.552v-2.267h.536v.325q.232-.377.644-.377.518 0 .703.421.254-.421.702-.421.374 0 .582.22zm-5.83 1.379h.541q.022.21.138.299.117.087.367.087.448 0 .448-.272a.215.215 0 0 0-.097-.189q-.096-.066-.347-.11l-.259-.043q-.742-.123-.742-.685 0-.32.246-.503.245-.182.694-.182.97 0 1.001.767h-.522q-.009-.202-.127-.288-.118-.086-.351-.085-.396 0-.396.263a.207.207 0 0 0 .088.178q.088.063.29.099l.285.043q.413.075.6.238.186.162.186.452 0 .342-.263.527-.263.184-.742.184-.993.001-1.037-.78zm-.77-1.278q.272.325.272.865t-.272.86q-.276.324-.742.324-.466 0-.703-.346v1.154h-.552v-3.125h.531v.325q.246-.377.725-.377.463 0 .74.32zm-.874 1.594q.272 0 .43-.198.157-.197.153-.548 0-.347-.151-.53-.152-.182-.433-.182-.276 0-.43.19-.153.188-.153.54 0 .355.158.54.148.188.425.188zm-1.972-1.594q.272.325.272.865t-.272.86q-.276.324-.742.324-.466 0-.703-.346v1.154h-.552v-3.125h.531v.325q.246-.377.725-.377.464 0 .74.32zm-.874 1.594q.272 0 .43-.198.158-.197.153-.548 0-.347-.151-.53-.152-.182-.433-.182-.276 0-.43.19-.153.188-.153.54 0 .355.158.54.15.188.426.188zm-2.331.404q-.04-.07-.062-.276-.228.33-.728.33-.374 0-.595-.18Q0 12.837 0 12.516q0-.62.87-.706l.342-.03a.504.504 0 0 0 .245-.082.215.215 0 0 0 .075-.178q0-.145-.094-.213-.095-.068-.319-.068-.241 0-.347.081c-.07.055-.111.147-.122.28H.105q.048-.773 1.019-.774.944 0 .944.681v1.207q0 .3.092.43zm-.237-.484q.162-.143.162-.41v-.207a.473.473 0 0 1-.26.092l-.298.034q-.22.027-.313.103a.27.27 0 0 0-.094.222.276.276 0 0 0 .098.227q.099.081.283.081.26 0 .422-.142Zm14.282-2.142a.29.29 0 0 1-.09-.214.307.307 0 0 1 .307-.307.29.29 0 0 1 .215.09.3.3 0 0 1 .087.217.29.29 0 0 1-.09.215.295.295 0 0 1-.213.087.3.3 0 0 1-.216-.088z"/>
+                                </svg>
+                                <span className="absolute bottom-full mb-2 left-5 -translate-x-1/2 whitespace-nowrap bg-gray-900 text-white text-sm px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
+                                    Appsmith
+                                </span>
+                            </div>
+                            
+                            <div className="relative group inline-block">
+                                <svg className="fill-current text-[#5190EF]" role="img" width="75" height="75" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.291.068A1.29 1.29 0 0 0 0 1.36v3.352a1.29 1.29 0 0 0 1.291 1.291h3.354a1.29 1.29 0 0 0 1.289-1.291V1.359A1.29 1.29 0 0 0 4.644.07Zm9.033 0a1.29 1.29 0 0 0-1.29 1.291v3.352a1.29 1.29 0 0 0 1.29 1.291H22.71A1.29 1.29 0 0 0 24 4.711V1.359A1.29 1.29 0 0 0 22.709.07ZM1.291 9.033A1.29 1.29 0 0 0 0 10.323v3.353a1.29 1.29 0 0 0 1.291 1.29h21.418A1.29 1.29 0 0 0 24 13.677v-3.354a1.29 1.29 0 0 0-1.291-1.289Zm0 8.965A1.29 1.29 0 0 0 0 19.289v3.352a1.29 1.29 0 0 0 1.291 1.29h12.385a1.29 1.29 0 0 0 1.29-1.29v-3.352a1.29 1.29 0 0 0-1.29-1.291zm18.064 0a1.29 1.29 0 0 0-1.289 1.291v3.352a1.29 1.29 0 0 0 1.29 1.29h3.353A1.29 1.29 0 0 0 24 22.642v-3.352a1.29 1.29 0 0 0-1.291-1.291z"/>
+                                </svg>
+                                <span className="absolute bottom-full mb-2 left-5 -translate-x-1/2 whitespace-nowrap bg-gray-900 text-white text-sm px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
+                                    Baserow 
+                                </span>
+                            </div>
+
                         </div>
                     </section>
                     {/* Stacks */}
-
 
                     {/* Experience */}
                     <section id="experience" className="grid mt-15">
@@ -326,7 +354,7 @@ export default function SizeXl(){
                                             Membantu pengajaran Pemrograman Web dengan mendukung penyampaian materi perkuliahan, membimbing mahasiswa dalam sesi praktik coding, mengelola bahan ajar, 
                                             serta mengevaluasi tugas dan proyek akhir berbasis web.
                                         </p>
-                                        <div className="flex w-full mt-4 gap-2">
+                                        <div className="flex flex-wrap w-full mt-4 gap-2">
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">JavaScript</p>
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">HTML</p>
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">PHP</p>
@@ -354,7 +382,7 @@ export default function SizeXl(){
                                             Membantu input data belanja daerah melalui aplikasi SIPPKD dan mengembangkan Sistem Informasi DAK Fisik (SIDAK) untuk mengelola serta 
                                             memantau data Dana Alokasi Khusus (DAK) Fisik.
                                         </p>
-                                        <div className="flex w-full mt-4 gap-2">
+                                        <div className="flex flex-wrap w-full mt-4 gap-2">
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Codeigniter</p>
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Bootstrap</p>
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Javascript</p>
@@ -364,18 +392,50 @@ export default function SizeXl(){
                             </div>
                         </a>
 
+                        <a href="https://drive.google.com/file/d/1209-WEOlsnwjOivrS87PRVm1Z2kP8LTT/view?usp=sharing" target="blank">
+                            <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl">
+                                <div className="flex group">
+                                    <div className="w-1/3">
+                                        <p className="text-xs text-slate-400 font-normal">DES 2025 - MEI 2026</p>
+                                    </div>
+                                    <div className="w-2/3">
+                                        <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
+                                            Staff IT · Kosasih Medika Lampung
+                                            <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
+                                                <i className="bi bi-arrow-up-right text-xs"></i>
+                                            </span>
+                                        </p>
+                                        <p className="text-sm text-slate-400 font-normal leading-relaxed">
+                                            Bekerja sebagai Staff IT dengan tanggung jawab melakukan troubleshooting jaringan, hardware, dan software untuk memastikan seluruh sistem perusahaan berjalan dengan stabil dan optimal. 
+                                            Saya juga menangani konfigurasi jaringan dan CCTV, termasuk instalasi, monitoring, serta pemeliharaan perangkat agar dapat digunakan dengan baik. 
+                                            Selain itu, saya mengembangkan sistem internal perusahaan untuk membantu operasional, meningkatkan efisiensi kerja, dan mendukung kebutuhan digitalisasi di lingkungan perusahaan.
+                                        </p>
+                                        <div className="flex flex-wrap w-full mt-4 gap-2">
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Appsmith</p>
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Baserow</p>
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">React</p>
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Tailwind</p>
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Javascript</p>
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Node.Js</p>
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Networking</p>
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">CCTV</p>
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Troubleshooting</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
                     </section>
-                    
                     {/* Experience */}
-
-
 
                     {/* Projects */}
                     <section id="projects" className="grid mt-30">
 
+                        {/* PROJECT 1 */}
                         <a href="https://skycastid.vercel.app" target="blank">
                             <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl group">
-                                <div className="flex">
+                                <div className="flex space-x-6">
                                     <div className="w-1/3">
                                         <Image src="/images/Skycast.png" alt="Profil" width={150} height={150} className="mt-2 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
                                     </div>
@@ -391,7 +451,7 @@ export default function SizeXl(){
                                             serta kondisi langit. Website ini membantu pengguna memantau cuaca secara cepat dan akurat, mendukung perencanaan kegiatan harian, 
                                             dan menampilkan tampilan interaktif dengan ikon dan latar sesuai kondisi cuaca.
                                         </p>
-                                        <div className="flex w-full mt-4 gap-2">
+                                        <div className="flex flex-wrap w-full mt-4 gap-2">
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Frontend</p>
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Next.js</p>
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Tailwind</p>
@@ -400,10 +460,11 @@ export default function SizeXl(){
                                 </div>
                             </div>
                         </a>
-                        
+
+                        {/* PROJECT 2 */}
                         <a href="">
                             <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl group">
-                                <div className="flex">
+                                <div className="flex space-x-6">
                                     <div className="w-1/3">
                                         <Image src="/images/SIAKAD.png" alt="Profil" width={150} height={150} className="mt-2 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
                                     </div>
@@ -419,7 +480,7 @@ export default function SizeXl(){
                                             pembelajaran, informasi publik, dan evaluasi. Sistem ini meningkatkan efisiensi administrasi
                                             dan mempermudah akses layanan akademik bagi siswa, staf, dan pemangku kepentingan.
                                         </p>
-                                        <div className="flex w-full mt-4 gap-2">
+                                        <div className="flex flex-wrap w-full mt-4 gap-2">
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">FullStack</p>
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Codeigniter</p>
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Bootstrap</p>
@@ -429,9 +490,10 @@ export default function SizeXl(){
                             </div>
                         </a>
 
+                        {/* PROJECT 3 */}
                         <a href="https://github.com/DermaOneTeam/Cloud-Computing" target="blank">
                             <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl group">
-                                <div className="flex">
+                                <div className="flex space-x-6">
                                     <div className="w-1/3">
                                         <Image src="/images/Dermaone.png" alt="Profil" width={150} height={150} className="mt-2 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
                                     </div>
@@ -448,7 +510,7 @@ export default function SizeXl(){
                                             gambar yang dikirim pengguna dan memberikan prediksi berdasarkan dataset medis yang
                                             telah dilatih, mendukung deteksi dini dan penerapan teledermatologi.
                                         </p>
-                                        <div className="flex w-full mt-4 gap-2">
+                                        <div className="flex flex-wrap w-full mt-4 gap-2">
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Backend</p>
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Node.js</p>
                                             <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Express.js</p>
@@ -458,33 +520,208 @@ export default function SizeXl(){
                             </div>
                         </a>
 
-                        <a href="" target="blank">
-                            <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl group">
-                                <div className="flex">
-                                    <div className="w-1/3">
-                                        <Image src="/images/SIDAK.png" alt="Profil" width={150} height={150} className="mt-2 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
-                                    </div>
-                                    <div className="w-2/3">
-                                        <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
-                                            Sistem Informasi Rekon DAK Fisik (SIDAK)
-                                            <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
-                                                <i className="bi bi-arrow-up-right text-xs"></i>
-                                            </span>
-                                        </p>
-                                        <p className="text-sm text-slate-400 font-normal">
-                                            Membangun website untuk mengelola dan memantau data DAK Fisik. Sistem ini meningkatkan
-                                            akses dan transparansi data DAK Fisik bagi staf pemerintah dan pemangku kepentingan.
-                                        </p>
-                                        <div className="flex w-full mt-4 gap-2">
-                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">FullStack</p>
-                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Codeigniter</p>
-                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Bootstrap</p>
+                        {/* ACCORDION */}
+                        <div
+                            className={`overflow-hidden transition-all duration-700 ease-in-out ${
+                                showAllProjects
+                                    ? "max-h-[5000px] opacity-100"
+                                    : "max-h-0 opacity-0"
+                            }`}
+                        >
+
+                            {/* PROJECT 4 */}
+                            <a href="" target="blank">
+                                <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl group">
+                                    <div className="flex space-x-6">
+                                        <div className="w-1/3">
+                                            <Image src="/images/SIDAK.png" alt="Profil" width={150} height={150} className="mt-2 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
+                                        </div>
+                                        <div className="w-2/3">
+                                            <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
+                                                Sistem Informasi Rekon DAK Fisik (SIDAK)
+                                                <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
+                                                    <i className="bi bi-arrow-up-right text-xs"></i>
+                                                </span>
+                                            </p>
+                                            <p className="text-sm text-slate-400 font-normal">
+                                                Membangun website untuk mengelola dan memantau data DAK Fisik. Sistem ini meningkatkan
+                                                akses dan transparansi data DAK Fisik bagi staf pemerintah dan pemangku kepentingan.
+                                            </p>
+                                            <div className="flex flex-wrap w-full mt-4 gap-2">
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">FullStack</p>
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Codeigniter</p>
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Bootstrap</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                            </a>
+
+                            {/* PROJECT 5 */}
+                            <a href="https://app.ibnukosasih.com/app/automation-registration/registrasi-692d1a0d6cf21868cf1bf0c6" target="blank">
+                                <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl group">
+                                    <div className="flex space-x-6">
+                                        <div className="w-1/3">
+                                            <Image src="/images/Reservasi.png" alt="Profil" width={150} height={150} className="mt-2 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
+                                        </div>
+                                        <div className="w-2/3">
+                                            <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
+                                                Reservasi Online Klinik Kosasih Medika Lampung
+                                                <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
+                                                    <i className="bi bi-arrow-up-right text-xs"></i>
+                                                </span>
+                                            </p>
+                                            <p className="text-sm text-slate-400 font-normal">
+                                                Membangun sistem reservasi online untuk Klinik Kosasih Medika yang memudahkan pasien dalam melakukan pendaftaran secara online. 
+                                                Sistem ini membantu meningkatkan efisiensi pelayanan, mempercepat proses administrasi, serta memudahkan staf klinik dalam mengelola data reservasi pasien.
+                                            </p>
+                                            <div className="flex flex-wrap w-full mt-4 gap-2">
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">FullStack</p>
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Appsmith</p>
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Baserow</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            {/* PROJECT 6 */}
+                            <a href="" target="blank">
+                                <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl group">
+                                    <div className="flex space-x-6">
+                                        <div className="w-1/3">
+                                            <Image src="/images/Absensi.png" alt="Profil" width={150} height={150} className="mt-2 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
+                                        </div>
+                                        <div className="w-2/3">
+                                            <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
+                                                Sistem Absensi Online Kosasih Medika Lampung
+                                                <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
+                                                    <i className="bi bi-arrow-up-right text-xs"></i>
+                                                </span>
+                                            </p>
+                                            <p className="text-sm text-slate-400 font-normal">
+                                                Membangun sistem absensi online untuk Klinik Kosasih Medika guna mempermudah proses pencatatan kehadiran karyawan secara digital dan real-time. 
+                                                Sistem ini membantu meningkatkan akurasi data absensi, memudahkan monitoring kehadiran, serta mempercepat proses rekapitulasi dan pengelolaan data oleh pihak manajemen.
+                                            </p>
+                                            <div className="flex flex-wrap w-full mt-4 gap-2">
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">FullStack</p>
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">React</p>
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Node.Js</p>
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Tailwind</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            {/* PROJECT 7 */}
+                            <a href="https://app.ibnukosasih.com/app/kalkulator-komisi-21ee/verifikasi" target="blank">
+                                <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl group">
+                                    <div className="flex space-x-6">
+                                        <div className="w-1/3">
+                                            <Image src="/images/Dashboard Loyal.png" alt="Profil" width={150} height={150} className="mt-2 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
+                                        </div>
+                                        <div className="w-2/3">
+                                            <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
+                                                Dashboard Pasien Loyal Klinik Kosasih Medika Lampung
+                                                <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
+                                                    <i className="bi bi-arrow-up-right text-xs"></i>
+                                                </span>
+                                            </p>
+                                            <p className="text-sm text-slate-400 font-normal">
+                                                Membangun dashboard monitoring pasien loyal untuk tim digital marketing Klinik Kosasih Medika Lampung. 
+                                                Sistem ini digunakan untuk memantau data pasien loyal, aktivitas kunjungan, serta membantu tim dalam melakukan analisis dan strategi pemasaran guna meningkatkan retensi dan engagement pasien.
+                                            </p>
+                                            <div className="flex flex-wrap w-full mt-4 gap-2">
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">FullStack</p>
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Appsmith</p>
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Baserow</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            {/* PROJECT 8 */}
+                            <a href="" target="blank">
+                                <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl group">
+                                    <div className="flex space-x-6">
+                                        <div className="w-1/3">
+                                            <Image src="/images/Kalkulator.png" alt="Profil" width={150} height={150} className="mt-2 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
+                                        </div>
+                                        <div className="w-2/3">
+                                            <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
+                                                Kalkulator Komisi Klinik Kosasih Medika Lampung
+                                                <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
+                                                    <i className="bi bi-arrow-up-right text-xs"></i>
+                                                </span>
+                                            </p>
+                                            <p className="text-sm text-slate-400 font-normal">
+                                                Membangun sistem kalkulator komisi untuk Klinik Kosasih Medika Lampung yang membantu proses perhitungan komisi karyawan secara otomatis dan lebih akurat. 
+                                                Sistem ini mempermudah monitoring pencapaian, mempercepat proses rekapitulasi komisi, serta membantu manajemen dalam pengelolaan data insentif secara efisien.
+                                            </p>
+                                            <div className="flex flex-wrap w-full mt-4 gap-2">
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">FullStack</p>
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Appsmith</p>
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Baserow</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            {/* PROJECT 9 */}
+                            <a href="" target="blank">
+                                <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl group">
+                                    <div className="flex space-x-6">
+                                        <div className="w-1/3">
+                                            <Image src="/images/SatuSehat.png" alt="Profil" width={150} height={150} className="mt-2 border border-slate-800 border-2 rounded-md group-hover:border-slate-500"/>
+                                        </div>
+                                        <div className="w-2/3">
+                                            <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
+                                                Dashboard Satu Sehat Klinik Kosasih Medika
+                                                <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
+                                                    <i className="bi bi-arrow-up-right text-xs"></i>
+                                                </span>
+                                            </p>
+                                            <p className="text-sm text-slate-400 font-normal">
+                                                Membangun dashboard integrasi Satu Sehat untuk Klinik Kosasih Medika guna membantu monitoring dan pengelolaan data layanan kesehatan secara lebih terstruktur dan efisien. 
+                                                Sistem ini mempermudah proses integrasi data, monitoring status pengiriman data, serta mendukung digitalisasi layanan kesehatan di lingkungan klinik.
+                                            </p>
+                                            <div className="flex flex-wrap w-full mt-4 gap-2">
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">FullStack</p>
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Appsmith</p>
+                                                <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Baserow</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+
+                        {/* BUTTON */}
+                        <div className="flex justify-center items-center w-full mt-10">
+                            <div className="translate-x-6">
+                                <button
+                                    onClick={() => setShowAllProjects(!showAllProjects)}
+                                    className="group flex items-center gap-2 rounded-3xl px-4 py-3 text-sm text-slate-400 transition-all duration-300 hover:bg-slate-600/20 hover:backdrop-blur-md hover:text-cyan-300"
+                                >
+                                    <span>
+                                        {showAllProjects ? "Tampilkan Lebih Sedikit" : "Tampilkan Semua Project"}
+                                    </span>
+
+                                    <span
+                                        className={`transition-transform duration-300 ${
+                                            showAllProjects ? "rotate-180" : ""
+                                        }`}
+                                    >
+                                        <i className="bi bi-chevron-down text-[11px]"></i>
+                                    </span>
+                                </button>
                             </div>
-                        </a>
-                        
+                        </div>
+
                     </section>
                     {/* Projects */}
 
