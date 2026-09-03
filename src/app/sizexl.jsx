@@ -466,6 +466,33 @@ export default function SizeXl(){
                             </div>
                         </a>
 
+                        <a href="https://drive.google.com/file/d/1209-WEOlsnwjOivrS87PRVm1Z2kP8LTT/view?usp=sharing" target="blank">
+                            <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl">
+                                <div className="flex group">
+                                    <div className="w-1/3">
+                                        <p className="text-xs text-slate-400 font-normal">AGT 2025 - NOW</p>
+                                    </div>
+                                    <div className="w-2/3">
+                                        <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
+                                            DevOps · Ide Diconic Indonesia
+                                            <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
+                                                <i className="bi bi-arrow-up-right text-xs"></i>
+                                            </span>
+                                        </p>
+                                        <p className="text-sm text-slate-400 font-normal leading-relaxed">
+                                            Bertugas sebagai DevOps dalam mengelola dan memelihara server, melakukan setup server baru untuk kebutuhan client, monitoring dan troubleshooting sistem, 
+                                            serta mendukung pengembangan dan konfigurasi Moodle. Selain itu, bertanggung jawab dalam penyusunan laporan terkait 
+                                            aktivitas dan kondisi server.
+                                        </p>
+                                        <div className="flex flex-wrap w-full mt-4 gap-2">
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Moodle</p>
+                                            <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Server</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
                     </section>
                     {/* Experience */}
 
