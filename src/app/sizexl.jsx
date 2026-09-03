@@ -432,7 +432,7 @@ export default function SizeXl(){
                             </div>
                         </a>
 
-                        <a href="https://drive.google.com/file/d/1209-WEOlsnwjOivrS87PRVm1Z2kP8LTT/view?usp=sharing" target="blank">
+                        <a href="" target="blank">
                             <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl">
                                 <div className="flex group">
                                     <div className="w-1/3">
@@ -466,7 +466,7 @@ export default function SizeXl(){
                             </div>
                         </a>
 
-                        <a href="https://drive.google.com/file/d/1209-WEOlsnwjOivrS87PRVm1Z2kP8LTT/view?usp=sharing" target="blank">
+                        <a href="" target="blank">
                             <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl">
                                 <div className="flex group">
                                     <div className="w-1/3">

@@ -371,6 +371,40 @@ export default function SizeSm(){
                         <div className="w-full pt-10">
                             <div className="flex flex-col">
                                 <div className="">
+                                    <p className="text-xs text-slate-400 font-normal pb-2">DES 2025 - MEI 2026</p>
+                                </div>
+                                <div className="">
+                                    <a href="" className="group" target="blank">
+                                        <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
+                                            Staff IT · Kosasih Medika Lampung
+                                            <span className="inline-block ml-1 align-middle transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1">
+                                                <i className="bi bi-arrow-up-right text-xs"></i>
+                                            </span>
+                                        </p>
+                                    </a>
+                                    <p className="text-sm text-slate-400 font-normal">
+                                        Bekerja sebagai Staff IT dengan tanggung jawab melakukan troubleshooting jaringan, hardware, dan software untuk memastikan seluruh sistem perusahaan berjalan dengan stabil dan optimal. 
+                                        Saya juga menangani konfigurasi jaringan dan CCTV, termasuk instalasi, monitoring, serta pemeliharaan perangkat agar dapat digunakan dengan baik. 
+                                        Selain itu, saya mengembangkan sistem internal perusahaan untuk membantu operasional, meningkatkan efisiensi kerja, dan mendukung kebutuhan digitalisasi di lingkungan perusahaan.
+                                    </p>
+                                    <div className="flex flex-wrap w-full mt-4 gap-2">
+                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Appsmith</p>
+                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Baserow</p>
+                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">React</p>
+                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Tailwind</p>
+                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Javascript</p>
+                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Node.Js</p>
+                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Networking</p>
+                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">CCTV</p>
+                                        <p className="bg-teal-300/20 text-cyan-300 rounded-full p-2 text-xs">Troubleshooting</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="w-full pt-10">
+                            <div className="flex flex-col">
+                                <div className="">
                                     <p className="text-xs text-slate-400 font-normal pb-2">AGT 2025 - NOW</p>
                                 </div>
                                 <div className="">
