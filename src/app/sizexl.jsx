@@ -44,9 +44,9 @@ export default function SizeXl(){
             <div className="flex px-17">
 
                 {/* Left */}
-                <div className="w-4/10 flex h-[900px] flex-col justify-between sticky top-25">
+                <div className="w-4/10 flex h-[calc(100dvh-6.25rem)] flex-col justify-between gap-8 sticky top-25 pb-8">
 
-                    <div className="flex flex-col">
+                    <div className="flex min-h-0 flex-col overflow-y-auto [scrollbar-width:thin] [scrollbar-color:var(--color-slate-600)_transparent]">
 
                         {/* Header */}
                         <div>
@@ -76,7 +76,7 @@ export default function SizeXl(){
                 
 
                     {/* Social Media */}
-                    <div className="flex mb-24">
+                    <div className="flex shrink-0">
                         {/* Github */}
                         <a href="https://github.com/mrafisatria" className="" target="blank">
                             <svg className="fill-current text-slate-300 hover:text-cyan-300 mr-5" role="img" width={25} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
