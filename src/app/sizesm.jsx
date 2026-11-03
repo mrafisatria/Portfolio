@@ -405,7 +405,7 @@ export default function SizeSm(){
                         <div className="w-full pt-10">
                             <div className="flex flex-col">
                                 <div className="">
-                                    <p className="text-xs text-slate-400 font-normal pb-2">AGT 2025 - NOW</p>
+                                    <p className="text-xs text-slate-400 font-normal pb-2">AGT 2026 - OKT 2026</p>
                                 </div>
                                 <div className="">
                                     <a href="" className="group" target="blank">

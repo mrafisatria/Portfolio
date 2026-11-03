@@ -470,7 +470,7 @@ export default function SizeXl(){
                             <div className="ml-17 pr-8 pl-8 pt-5 pb-5 hover:bg-slate-600/20 hover:backdrop-blur-md hover:shadow-xl transition-all duration-300 rounded-xl">
                                 <div className="flex group">
                                     <div className="w-1/3">
-                                        <p className="text-xs text-slate-400 font-normal">AGT 2025 - NOW</p>
+                                        <p className="text-xs text-slate-400 font-normal">AGT 2026 - OKT 2026</p>
                                     </div>
                                     <div className="w-2/3">
                                         <p className="text-white group-hover:text-cyan-300 mb-3 font-bold">
